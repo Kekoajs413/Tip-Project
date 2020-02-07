@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+.calc-container {
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  background: #848382;
+  border-radius: 8px;
+  height:500px;
+  width:300px;
+  padding:20px;
+}
+.output {
+  width: 250px;
+  height: 40px;
+  background: #EFEFEF;
+  font-size: 20px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 0;
+  text-align: center;
+}
+input {
+  font-size: 20px;
+  margin: 5px;
+  padding: 15px;
+  border-radius: 5px;
+  border: 0;
+  width: 250px;
+  height: 25px;
+  background: #EFEFEF;
+  text-align: center;
+  vertical-align: center;
+}
+.tip {
+  border-radius: 5px;
+  margin: 5px;
+  border: 0;
+  background: #454B4A;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 1px;
+  padding:5px;
+  width: 100px;
+  cursor: pointer;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  height: 55%;
+  width: 90%;
+  justify-content: space-between;
+}
+.first-row {
+  display: flex;
+  justify-content: space-between;
+}
+.second-row {
+  display: flex;
+  justify-content: space-between;
+}
+.third-row {
+  display: flex;
+  justify-content: space-between;
+}
+.fourth-row {
+  display: flex;
+  justify-content: center;
+}
+.calc-btn {
+  background: #454B4A;
+  border: 0;
+  border-radius: 5px;
+  width: 55px;
+  height: 45px;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+#Clear {
+  background: #454B4A;
+  border: 0;
+  border-radius: 5px;
+  width: 100px;
+  height: 45px;
+  letter-spacing: 1px;
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
